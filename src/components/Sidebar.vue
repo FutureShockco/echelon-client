@@ -80,9 +80,6 @@ const uiStore = useUiStore();
                 <a href="#">
                     <div class="d-flex">
                         <div class="align-self-center">
-                            <img src="/images/pictures/14s.jpg" class="rounded-s me-2" width="60" alt="img">
-                        </div>
-                        <div class="align-self-center">
                             <h5 class="font-14 mb-0 ps-1 pt-1">Steem Boilerplate V0.1</h5>
                             <p class="ps-1 pb-1 mb-0 font-11 line-height-s opacity-70">
                                 Bootstrap 5 and Vue3

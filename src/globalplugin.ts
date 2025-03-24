@@ -47,7 +47,7 @@ const config = SanitizeConfig({
 
 export function setupGlobalMethods(app: App) {
   app.config.globalProperties.$formatReputation = (reputation: string | number): number => {
-    if (reputation == null) return reputation;
+    if (reputation == null) return Number(reputation);
     reputation = parseInt(reputation.toString());
     let rep = String(reputation);
     let neg = rep.charAt(0) === "-";

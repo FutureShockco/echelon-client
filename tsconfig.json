@@ -7,6 +7,8 @@
     "jsx": "preserve",
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": false,
     "resolveJsonModule": true,
     "ignoreDeprecations": "5.0",    
     "allowSyntheticDefaultImports": true,
