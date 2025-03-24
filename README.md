@@ -34,7 +34,7 @@ Make a new repository from the template and use your favorite package manager to
 ## Get the project
 
 ```bash
-git clone https://github.com/FutureShockco/steem-blockchain-vue-boilerplate.git
+git clone https://github.com/FutureShockco/echelon-client.git
 cd steem-blockchain-vue-boilerplate
 ```
 
