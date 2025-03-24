@@ -12,7 +12,7 @@ const router = useRouter()
 <template>
   <div class="header-bar header-fixed header-app">
     <a @click="uiStore.toggleSidebar()" data-bs-target="#menu-main" href="#"><i class="fad fa-list color-theme"></i></a>
-    <router-link to="/" class="header-title color-theme">Steem Boilerplate</router-link>
+    <router-link to="/" class="header-title color-theme">EchelonDex</router-link>
     <a @click="uiStore.toggleColorMenu()" data-bs-target="#menu-color"><i
         class="bi bi-palette-fill font-13 color-highlight"></i></a>
     <a href="#" class="show-on-theme-light" data-toggle-theme><i class="bi bi-moon-fill font-13"></i></a>
