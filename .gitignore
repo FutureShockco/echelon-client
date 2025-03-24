@@ -34,3 +34,4 @@ coverage
 .history
 .vscode
 .gitpod*
+components.d.ts
