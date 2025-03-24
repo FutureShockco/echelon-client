@@ -41,7 +41,6 @@
     "@types/bootstrap": "^5.2.6",
     "@types/crypto-js": "^4.2.2",
     "@types/lodash": "^4.17.7",
-    "@types/markdown-it": "^14.1.2",
     "@types/node": "^20.12.7",
     "@types/numeral": "^2.0.5",
     "@vitejs/plugin-vue": "^5.0.3",
