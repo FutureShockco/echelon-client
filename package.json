@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Steem boilerplate",
   "engines": {
-    "node": "18.17.0"
+    "node": ">=18.17.0"
   },
   "scripts": {
     "build": "run-p type-check build-only",
@@ -21,6 +21,7 @@
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.3",
     "connect-history-api-fallback": "^2.0.0",
+    "core-js": "^3.41.0",
     "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
     "dsteem": "^0.11.3",
@@ -35,6 +36,9 @@
     "vue": "^3.4.25",
     "vue-router": "^4.3.2",
     "vue-router-layout": "^0.4.0"
+  },
+  "resolutions": {
+    "core-js": "^3.41.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.25.4",
